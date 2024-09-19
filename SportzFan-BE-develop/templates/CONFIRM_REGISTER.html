@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="viewport"
+      content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title></title>
+
+    <style type="text/css">
+      #outlook a {
+        padding: 0;
+      }
+
+      body {
+        width: 100% !important;
+        size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 21px;
+        text-align: center;
+        color: #425466;
+      }
+
+      table td {
+        border-collapse: collapse;
+      }
+
+      .container {
+        width: 600px !important;
+        padding: 24px 20px;
+      }
+
+      .content {
+        margin: 14px 0 24px 0;
+        padding: 26px 20px;
+        background: #fff;
+        box-shadow: 0px 16px 32px rgba(42, 69, 77, 0.08);
+        border-radius: 20px;
+      }
+
+      .title {
+        font-family: 'Goldman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: #0a2540;
+      }
+
+      .button {
+        background: linear-gradient(128.64deg, #ba0c2f 35.63%, #222222 107.34%);
+        border-radius: 4px;
+        padding: 10px 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: #ffffff !important;
+        text-decoration: none;
+      }
+
+      @media screen and (max-width: 630px) {
+        .container {
+          width: 100% !important;
+          padding: 24px 20px;
+        }
+      }
+    </style>
+  </head>
+
+  <body style="padding: 0; margin: 0; background-color: #f6f8f9">
+    <table
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      style="margin: 0; padding: 0"
+      width="100%"
+    >
+      <tr>
+        <td align="center" valign="top">
+          <table
+            class="container"
+            style="padding: 24px 20px"
+            bgcolor="#f6f8f9"
+            width="600"
+          >
+            <!-- Logo -->
+            <tr>
+              <td align="center">
+                <img
+                  alt="logo"
+                  src="{{teamLogo}}"
+                  width="58"
+                  style="
+                    width: 58px;
+                    height: auto;
+                    -ms-interpolation-mode: bicubic;
+                    border: 0;
+                    outline: none;
+                    text-decoration: none;
+                  "
+                />
+              </td>
+            </tr>
+
+            <!-- Content -->
+            <tr>
+              <td>
+                <table class="content">
+                  <!-- Title -->
+                  <tr align="center">
+                    <td class="title" style="padding-bottom: 16px">
+                      {{name}}, thanks for joining the {{teamName}} fan
+                      experience 👏
+                    </td>
+                  </tr>
+
+                  <tr align="center">
+                    <td>
+                      <div style="padding-bottom: 14px">
+                        {{name}}, Thank you for joining {{teamName}} and getting
+                        started on the next generation of fan experience.
+                      </div>
+                      <div style="padding-bottom: 14px">
+                        Start being rewarded for your fandom and take your fan
+                        experience to the next level.
+                      </div>
+                      <div style="padding-bottom: 28px">
+                        Play games, complete challenges and compete against
+                        other fans to access exclusive experiences, offers and
+                        content.
+                      </div>
+                    </td>
+                  </tr>
+                  <tr align="center">
+                    <td>
+                      <div style="padding-bottom: 20px">
+                        Click
+                        <a href="{{activateLink}}" target="_blank">here</a> to
+                        activate account
+                      </div>
+                      <a class="button" href="{{activateLink}}" target="_blank"
+                        >Get Started!</a
+                      >
+                      <div style="padding-top: 20px">The {{teamName}} Team</div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td align="center" style="padding-bottom: 18px">
+                Need help?
+                <a
+                  style="font-weight: 500; color: #141e30"
+                  href="{{contactLink}}"
+                  target="_blank"
+                  >Contact our support team</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <a href="{{instagramLink}}" style="margin-right: 26px">
+                  <img
+                    alt="instagram"
+                    src="{{mailAssetsUrl}}/instagram.png"
+                    width="17"
+                    style="width: 17px; height: auto"
+                  />
+                </a>
+                <a href="{{twitterLink}}" style="margin-right: 26px">
+                  <img
+                    alt="twitter"
+                    src="{{mailAssetsUrl}}/twitter.png"
+                    width="17"
+                    style="width: 17px; height: auto"
+                  />
+                </a>
+                <a href="{{facebookLink}}">
+                  <img
+                    alt="facebook"
+                    src="{{mailAssetsUrl}}/facebook.png"
+                    width="7"
+                    style="width: 7px; height: auto"
+                  />
+                </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - yarn install --frozen-lockfile && yarn build # clean install (npm ci) and build (npm run build)
+artifacts:
+  files:
+    - '**/*'
